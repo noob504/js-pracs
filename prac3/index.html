@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prac 3</title>
+    </head>
+
+    <body>
+        <h1>String operations</h1>
+
+        <div>
+            <h2>Reverse String</h2>
+            <label for="">Enter a string to reverse: </label>
+            <input type="text" id="strRev">
+            <br>
+            <button onclick="reverseString()">Reverse String</button>
+            <p>Reverse String: <span id="reversedString"></span> </p>
+        </div>
+
+        <br><br>
+
+        <div>
+            <h2>Replace a Character in a String</h2>
+            <label>Enter String:</label>
+            <input type="text" id="inputString">
+            <br/>
+            <label>Enter the character to be replaced: </label>
+            <input type=" text" id="charToBeReplaced">
+            <br />
+            <label>Enter the character to replace with: </label>
+            <input type="text" id="charToReplaceWith">
+            <br />
+            <button onclick="replaceCharacter()">Replace Character</button>
+            <p>String with Replaced Character:
+                <br />
+                <span id="replacedString"></span>
+            </p>
+        </div>
+
+        <div>
+            <h2>Palindrome Check</h2>
+            <label>Enter String: </label>
+            <input type="text" id="inputCheckString">
+            <br>
+            <button onclick="checkPalindrome()">Check Palindrome</button>
+            <p>String is: <span id="palindromeResult"></span></p>
+        </div>
+
+        <script src="./script.js" async></script>
+
+    </body>
+
+</html>

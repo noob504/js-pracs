@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prac 1</title>
+    </head>
+
+    <body>
+        <div>
+            <h1>Area Of Triangle</h1>
+
+            <label>Enter side 1:</label>
+            <input type="number" id="triangleSideA">
+            <br><br>
+
+            <label>Enter side 2:</label>
+            <input type="number" id="triangleSideB">
+            <br><br>
+
+            <label>Enter side 3:</label>
+            <input type="number" id="triangleSideC">
+            <br><br>
+
+            <button onclick="calcAreaOfTriangle()">Calculate</button>
+            <p>Area: <span id="areaOfTriangle"></span></p>
+        </div>
+
+        <div>
+            <h1>Area Of Rectangle</h1>
+
+            <label>Enter width of Rectangle:</label>
+            <input type="number" id="rectangleWidth">
+            <br><br>
+
+            <label>Enter length of Rectangle:</label>
+            <input type="number" id="rectangleLength">
+            <br><br>
+
+            <button onclick="calcAreaOfRectangle()">Calculate</button>
+            <p>Area: <span id="areaOfRectangle"></span></p>
+        </div>
+
+        <div>
+            <h1>Area Of Circle</h1>
+
+            <label>Enter radius:</label>
+            <input type="number" id="circleRadius">
+            <br><br>
+
+            <button onclick="calcAreaOfCircle()">Calculate</button>
+            <p>Area: <span id="areaOfCircle"></span></p>
+        </div>
+
+        <script src="./script.js" async></script>
+    </body>
+
+</html>

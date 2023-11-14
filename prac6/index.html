@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prac 6</title>
+</head>
+<body>
+    <h1>Array Operations</h1>
+
+    <div>
+        <label>Enter elements of the array (separated with commas):</label>
+        <input type="text" id="inputData">
+        <br>
+        <button onclick="arrayOperations()">Generate Array</button>
+        <p>Array: <span id="arrayOperationsResult"></span></p>
+    </div>
+
+    <div>
+        <h3>Remove specific element</h3>
+        <label>Enter element to remove:</label>
+        <input type="text" id="removeElement">
+        <br>
+        <button onclick="removeSpecificElement()">Remove Element</button>
+        <p>new array: <span id="removeElementResult"></span></p>
+    </div>
+
+    <div>
+        <h3>Search for specific element</h3>
+        <label>Enter element to check:</label>
+        <input type="text" id="checkElement">
+        <br>
+        <button onclick="checkElement()">Check Element</button>
+        <p> <span id="checkElementResult"></span></p>
+    </div>
+
+    <div>
+        <h3>Empty the array</h3>
+        <button onclick="emptyArray()">Empty Array</button>
+        <p><span id="originalArray"></span></p>
+        <p> <span id="emptyArrayResult"></span></p>
+    </div>
+
+    <script src="./script.js" async></script>
+</body>
+</html>
